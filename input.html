@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="Sub-container">
+        <form action="" class="form1">
+            <h1>General Information</h1>
+            <select 
+            name="Title" id="Title" >
+            <option value="" disable selected hidden>Title</option>
+            <option value="Manager">Manager</option>
+            <option value="Intern">Intern</option>
+            <option value="Clerk">Clerk</option>
+            </select>
+            <div class="input-group">
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
+            <label for="Position"></label>
+            <select name="Position" id="Position">
+                <option value="" disable selected hidden>Position</option>
+                <option value="Intern">Intern</option>
+                <option value="Manager">Manager</option>
+                <option value="Client">Client</option>
+            </select> 
+            <label for="Company"></label>
+            <input type="text" placeholder="Company">
+            <label for="Business Arena"></label>
+            <input type="text" placeholder="Business Arena">
+             <select 
+             name="Employees" id="Employees">
+             <option value="" disable selected hidden>Employees</option>
+                <option value="Peter">Peter</option>
+                <option value="Micheal">Micheal</option>
+                <option value="David">David</option>
+             </select>
+            </form>
+    </div>
+
+        <div class="second-container">
+            <form action="" class="form2">
+                <h1 class="Contact"> Contact Details</h1>
+                <input type="text" placeholder="Street+Nr" class="input-1">
+                <input type="text" placeholder="Additional Information" class="input-1">
+                <input type="text" placeholder="Zip Code" class="input-1">
+
+                <select name="place" id="place" class="select">
+                    <option value="" disable selected hidden>Place</option>
+                    <option value="">Nigeria</option>
+                    <option value="">Kuwait</option>
+                    <option value="">England</option>
+                </select>
+                <div>
+                    <select name="Country" id="Country"  class="select">
+                        <option value="" disable selected hidden>Country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Kuwait</option>
+                        <option value="">England</option>
+                    </select>
+                    <input type="text" placeholder="Code+" class="input-1">
+                </div>
+                
+                <input type="text" placeholder="Phone Number" class="input-1">
+                <input type="text" placeholder="Your Email" class="input-1">
+
+                <div class="checkbox">
+                    <input type="checkbox">
+                    i do accept the <a href="">Terms and Conditions</a> of your site
+                </div>
+
+                <div>
+                    <input type="submit" value="Register Badge" class="Badge">
+                </div>
+         </form>
+        </div>
+    
+
+</body>
+</html>
